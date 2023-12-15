@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet" type='text/css'>
+    <title>Document</title>
+
+    <!-- Internal Stylesheet -->
+    <style>
+        .page-title {
+            margin-top: 0;
+        }
+
+        .main-page-title {
+            margin-bottom: 3rem;
+            text-align: center;
+            margin-top: 5rem;
+        }
+
+        @media screen and (min-width: 750px) {
+            .main-page-title {
+                margin-bottom: 4rem;
+            }
+        }
+
+        .page-placeholder-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .page-placeholder {
+            width: 52.5rem;
+            height: 52.5rem;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .block {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: calc(50% - 20px);
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 0.2px;
+            margin-right: 10px;
+            padding-inline-end: 1px;
+            text-align: center;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+
+        .block h2 {
+            margin-top: 0;
+        }
+
+        .block:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .background {
+            background-color: var(--background);
+            display: grid;
+            place-items: center;
+            height: 10vh;
+        }
+
+        .button {
+            color: #090909;
+            background-color: rgb(254, 254, 254);
+            cursor: pointer;
+            font-size: 0.8rem;
+            line-height: 0.9rem;
+            max-width: 80px;
+            width: 100%;
+            letter-spacing: 0.1rem;
+            font-weight: 600;
+            position: relative;
+            text-decoration: solid;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            transition: all 1s ease-in;
+        }
+
+        .button:hover {
+            color: #f35757;
+        }
+
+        .button svg {
+            height: 28.8px;
+            left: 0;
+            top: 0;
+            position: absolute;
+            width: 100%;
+        }
+
+        .button rect {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 2;
+            stroke-dasharray: 450, 0;
+            transition: all 0.5s linear;
+        }
+
+        .button:hover rect {
+            stroke-width: 5;
+            stroke-dasharray: 20, 300;
+            stroke-dashoffset: 48;
+            stroke: #FF9950;
+            transition: all 2s cubic-bezier(0.22, 1, 0.25, 1);
+        }
+
+        @media screen and (max-width: 600px) {
+            .block {
+                flex-basis: calc(100% - 20px);
+            }
+        }
+
+        #shopify-section-template .btn {
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section id="shopify-section-template">
+
+
+        <h1 class="main-page-title page-title h0 scroll-trigger animate--fade-in">
+            Internships
+        </h1>
+        <div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="block" style="text-align: center;">
+                        <h2><strong>Web Development <br>Internship Program</strong></h2>
+                        <ul>
+                            <li style="text-align: left;">Duration: 1 month/2 months</li>
+                            <li style="text-align: left;">Location: Virtual</li>
+                            <li style="text-align: left;">Stipend: -</li>
+                            <li style="text-align: left;">Start date: 05/11/2023</li>
+                        </ul>
+                        <span class="background">
+                            <a href="https://vaultofcodes.com/pages/web-development-internship" class='button'>
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                </svg>
+                                View Details
+                            </a>
+                        </span>
+
+
+                    </div>
+                    <div class="block" style="text-align: center;">
+                        <h2><strong>App Development<br> Internship Program</strong></h2>
+                        <ul>
+                            <li style="text-align: left;">Duration: 1 month/2 months</li>
+                            <li style="text-align: left;">Location: Virtual</li>
+                            <li style="text-align: left;">Stipend: -</li>
+                            <li style="text-align: left;">Start date: 05/11/2023</li>
+                        </ul>
+
+                        <span class="background">
+                            <a href="https://vaultofcodes.com/pages/app-development-internship" class='button'>
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                </svg>
+                                View Details
+                            </a>
+                        </span>
+                    </div>
+                    <div class="block" style="text-align: center;">
+                        <h2><strong>Python Programming <br>Internship Program</strong></h2>
+                        <ul>
+                            <li style="text-align: left;">Duration: 1 month/2 months</li>
+                            <li style="text-align: left;">Location: Virtual</li>
+                            <li style="text-align: left;">Stipend: -</li>
+                            <li style="text-align: left;">Start date: 05/11/2023</li>
+                        </ul>
+
+                        <span class="background">
+                            <a href="https://vaultofcodes.com/pages/python-programming-internship" class='button'>
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                </svg>
+                                View Details
+                            </a>
+                        </span>
+                    </div>
+                    <div class="block" style="text-align: center;">
+                        <h2><strong>Java Programming<br>Internship Program</strong></h2>
+                        <ul>
+                            <li style="text-align: left;">Duration: 1 month/ 2months</li>
+                            <li style="text-align: left;">Location: Virtual</li>
+                            <li style="text-align: left;">Stipend: -</li>
+                            <li style="text-align: left;">Start date: 05/11/2023</li>
+                        </ul>
+
+                        <span class="background">
+                            <a href="https://vaultofcodes.com/pages/java-programming-internship" class='button'>
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                </svg>
+                                View Details
+                            </a>
+                        </span>
+                    </div>
+                    <div class="block" style="text-align: center; order: 1;">
+                        <h2><strong>Canva Designing <br>Internship Program</strong></h2>
+                        <ul>
+                            <li style="text-align: left;">Duration: 1 month/2 months</li>
+                            <li style="text-align: left;">Location: Virtual</li>
+                            <li style="text-align: left;">Stipend: -</li>
+                            <li style="text-align: left;">Start date: 05/11/2023</li>
+                        </ul>
+
+                        <span class="background">
+                            <a href="https://forms.gle/3qeL2HymFv1xSBQRA" class='button'>
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                </svg>
+                                View Details
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    </main>
+</body>
+
+</html>
