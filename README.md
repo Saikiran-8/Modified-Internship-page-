@@ -1,4 +1,4 @@
-# Random-Task2
+# Modified internship page of Vault of Codes website
 Introduction:
 As part of the ongoing efforts to enhance user experience and modernize the Vault of Codes website, a comprehensive makeover was undertaken for the Internship Section. The aim was to create a visually appealing, intuitive, and user-friendly interface to attract potential interns and provide them with a seamless application process.
 
